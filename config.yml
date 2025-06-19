@@ -14,8 +14,6 @@ engine:                            # Engine settings.
     book:
       standard:                 # List of book file paths for variant standard. 
         - "./engines/optimus2409.bin"
-        - "./engines/optimus32.bin"
-        - "./engines/Titans.bin"
         - "./engines/Perfect2023.bin"
 #     atomic:                      # List of book file paths for variant atomic.
 #       - engines/atomicbook1.bin
@@ -54,7 +52,7 @@ engine:                            # Engine settings.
       min_depth: 20
       min_knodes: 0
     lichess_opening_explorer:
-      enabled: true
+      enabled: false
       min_time: 20
       source: "lichess"            # One of "lichess", "masters", "player"
       player_name: ""              # The lichess username. Leave empty for the bot's username to be used. Used only when source is "player".
